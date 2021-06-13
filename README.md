@@ -9,9 +9,10 @@ Each repository is checked for:
  * staged but uncommitted changes
  * all commits on or after the date argument
 
-git clone https://github.com/whitelamp-uk/git-activity.git
-cd git-activity
-cp git-activity.cfg-example git-activity.cfg
-nano git-activity.cfg
-bash git-activity.bash
+Install and run:
+ * git clone https://github.com/whitelamp-uk/git-activity.git
+ * cd git-activity
+ * cp git-activity.cfg-example git-activity.cfg
+ * nano git-activity.cfg
+ * bash git-activity.bash
 
