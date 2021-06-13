@@ -1,0 +1,9 @@
+
+
+# Space-separated remote locations
+locations="mark@snowy:/home/mark mark@pedigree:/home/mark/www"
+
+# Identifier for commit author
+gitauth="Mark Page"
+
+
