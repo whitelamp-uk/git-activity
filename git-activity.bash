@@ -19,7 +19,7 @@ do
     do
 
         echo "================================"
-        ssh $account "cd $path ; cd $gitloc ; cd .. ; echo $(pwd)"
+        ssh $account "cd $path ; cd $gitloc ; cd .. ; echo -n $account: ; pwd"
 
         echo "Unstaged: ----------------------"
         ssh $account "cd $path ; cd $gitloc ; cd .. ; git ls-files --others --exclude-standard"
